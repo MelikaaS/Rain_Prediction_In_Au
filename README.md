@@ -13,3 +13,6 @@ I'm going to practice classification algorithms such as
 * Mean Absolute Error
 * Mean Squared Error
 * R2-Score
+
+
+### Powered by IBM Corporation

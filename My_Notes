@@ -1,0 +1,9 @@
+My Observation: 
+ The dataset is imbalance
+ The Target Value is binary, So This is a classification problem and Linear Regression doesnt fit well on dataset.
+ Evaluation metric analysis: 
+  * Jaccard Score has the lowest value because it is a conservative measure of model performance and True Positive Values are the most important . It just focus on every 1 values that they are the same in actual and predicted values. 
+  * Jaccard Similarity Fomrula = TP/(TP + FP+ FN)
+  * Accuracy indicates that the model is generally performing well, though it doesn't give insights into how well the model is predicting each class, especially in cases of imbalance.
+  * F1 Score is harmonic mean of precision and recall. It’s particularly useful for imbalanced datasets
+  * Higher value in Acuuracy and Lower value in F1 Score represent that the model may be predicting better on major class(here is 0-not-rain), but doesn't necessarily capture the quality of predictions for the minority class.
